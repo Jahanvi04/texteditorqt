@@ -17,17 +17,9 @@ public:
     ~MyTextEditor();
 
 private slots:
-    void on_actionBold_triggered(bool checked);
-
-
-
-
-
-
-    void on_actionSuper_triggered(bool checked);
-
-    void on_actionSub_triggered(bool checked);
-
+    void on_actionBold_triggered();
+    void on_actionSuper_triggered();
+    void on_actionSub_triggered();
     void on_actionAbout_triggered();
 
 private:
