@@ -14,7 +14,7 @@
    <string>MyTextEditor</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QPlainTextEdit" name="plainTextEdit">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -52,33 +52,25 @@
    <addaction name="actionAbout"/>
   </widget>
   <action name="actionBold">
-   <property name="checkable">
-    <bool>true</bool>
-   </property>
+   
    <property name="text">
     <string>Bold</string>
    </property>
   </action>
   <action name="actionSuper">
-   <property name="checkable">
-    <bool>true</bool>
-   </property>
+   
    <property name="text">
     <string>Superscript</string>
    </property>
   </action>
   <action name="actionSub">
-   <property name="checkable">
-    <bool>true</bool>
-   </property>
+   
    <property name="text">
     <string>Subscript</string>
    </property>
   </action>
   <action name="actionAbout">
-   <property name="checkable">
-    <bool>true</bool>
-   </property>
+  
    <property name="text">
     <string>About Me</string>
    </property>
@@ -87,3 +79,4 @@
  <resources/>
  <connections/>
 </ui>
+
