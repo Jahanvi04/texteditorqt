@@ -35,7 +35,7 @@ void MyTextEditor::on_actionBold_triggered()
 
 
 
-void MyTextEditor::on_actionSuper_triggered(bool checked)
+void MyTextEditor::on_actionSuper_triggered()
 {
      QTextCursor cursor=ui->plainTextEdit->textCursor();
     int StartPos=cursor.selectionStart();
@@ -49,7 +49,7 @@ void MyTextEditor::on_actionSuper_triggered(bool checked)
 }
 
 
-void MyTextEditor::on_actionSub_triggered(bool checked)
+void MyTextEditor::on_actionSub_triggered()
 {
      QTextCursor cursor=ui->plainTextEdit->textCursor();
     int StartPos=cursor.selectionStart();
